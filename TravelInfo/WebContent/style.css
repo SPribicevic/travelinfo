@@ -1,0 +1,204 @@
+body {
+	background-image: url('img/background.jpg');
+	font-size: 87.5%;
+	color: #26B2EE;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #096F8E;
+}
+
+.mainHeader {
+	margin: 2% 0;
+}
+
+#mainHeaderLink{
+	margin: 10% 5%;
+	padding: 20px;
+	font-weight: bold;
+	color: #26C3F3;
+	text-decoration: underline;
+	display: inline;
+}
+
+#logo {
+	float: left;
+	width: 115px;
+	height: 80px;
+	align: center:
+	margin: 0px 0px 0px 10%;
+}
+
+#logo:hover {
+	cursor: pointer;
+}
+
+#mainTitle {
+	float: left;
+	margin: 0px 0px 0px 15%;
+	font-size: 70px;
+}
+
+#mainTitle:hover {
+	cursor: pointer;
+}
+
+.mainContent {
+	margin: 12%;
+}
+
+.mainContent p {
+	font-size: 40px;
+	text-align: center;
+}
+
+#regLog p {
+	font-size: 18px;
+	text-align: left;
+}
+
+#countryChooser {
+	float: top;
+}
+
+#countryChooser h2, #countryChooser select{
+	float: left;
+}
+
+#countryChooser h2 {
+	text-decoration: underline;
+}
+
+#countryChooser select {
+	margin: 22px 0 0 15px;
+    border: 1px solid #111;
+    background: transparent;
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+@media screen and (min-width:0\0) { 
+    select {
+        background:none;
+        padding: 5px;
+    }
+}
+
+#posts {
+	background-color: transparent;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	display: none;
+	width: 70%;
+}
+
+#countryChooser input {
+	margin: 15px 0 0 10px;
+	background-color: #26C3F3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.msg {
+	color: red;
+	font-size: 12px !important; 
+}
+
+textarea {
+	resize: none;
+}
+
+#posts article p, #posts fieldset p {
+	font-size: 16px;
+	text-align: left;
+}
+
+#posts article #date {
+	text-align: left;
+	maring: 5px;
+}
+
+#posts article #user {
+	text-align: right;
+	margin: 5px;
+}
+
+#posts article #header {
+	font-size: 25px;
+	text-align: central;
+}
+
+#posts article {
+	/*background-color: #FFFFFF;*/
+	border-radius: 10px;
+	border-style: solid;
+	border-size: 2px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-color: #26C3F3;
+	/*width: 50%;*/
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+#posts article:hover {
+	background-color: #FCCECE;
+}
+
+#newPostBtn {
+	margin: 20px !important;
+}
+
+.button {
+	margin: 30px 0 0 20px;
+	background-color: #26C3F3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #F62D2D !important; 
+}
+
+legend {
+	font-size: 20px;
+}
+
+fieldset {
+	display: inline-block;
+	margin: 0 40px 40px 40px;
+	border-color: #26C3F3;
+}
